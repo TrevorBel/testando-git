@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <title>SideBar Designs</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="Author" content="Fredy Muniz">
+     <link rel="stylesheet" href="src/CSS/cs01.css">
+     <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/css/all.min.css">
+     <srcipt src="src/JS/jquery-3.7.1.js"></srcipt>
+</head>
+
+<body>
+     <nav class="sideBar">
+          <div class="sideBar-header">
+               <img src="src/Pic/stevejobs_noBG.png" alt="Profile" class="sideBar-image">
+               <h2 class="sideBar-title">Fredy Muniz</h2>
+               <p class="sideBar-subtitle">Full Stack and Engineer Software</p>
+          </div>
+
+          <ul class="sideBar-menu">
+               <li>
+                    <a href="" class="menu-item">
+                         <i class="fa-solid fa-house"></i>
+                         <p>Home</p>
+                    </a>
+               </li>
+               <li>
+                    <a href="" class="menu-item">
+                         <i class="fa-solid fa-user"></i>Sobre
+                    </a>
+               </li>
+               <li>
+                    <a href="javascript:void(0)" class="menu-item" id="services-toggle">
+                         <i class="fa-solid fa-briefcase"></i>Services<span class="arrow">&#9660;</span>
+                    </a>
+                    <ul class="subMenu" id="services-subMenu">
+                         <li><a href="#">Web Designer</a></li>
+                         <li><a href="#">SEO</a></li>
+                         <li><a href="#">E-Commerce</a></li>
+                    </ul>
+               </li>
+               <li><a href="" class="menu-item">
+                         <i class="fa-solid fa-envelope"></i>Contact
+                    </a>
+               </li>
+          </ul>
+     </nav>
+     <section class="container">
+          <main class="main-content">
+               <div>
+                    <h1>Main Content Area</h1>
+                    <p>More content page</p>
+               </div>
+          </main>
+
+          <footer>
+               <div class="contentFoot">
+                    <div class="footer_section about">
+                         <h3>About Me</h3>
+                         <p>I'm a web developer passionate about building beautiful, functional websites. Follow me on
+                              social
+                              media for more updates!</p>
+                    </div>
+                    <div class="footer_section links">
+                         <h3>Quick links</h3>
+                         <ul>
+                              <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">Terms of service</a></li>
+                              <li><a href="#">Contact</a></li>
+                         </ul>
+                    </div>
+                    <div class="footer_section social">
+                         <h3>Follow Me</h3>
+                         <a href=""><i class="fa-brands fa-instagram"></i></a>
+                         <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                         <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                         <a href=""><i class="fa-brands fa-facebook"></i></a>
+                         <a href=""><i class="fa-brands fa-youtube"></i></a>
+                         <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+               </div>
+               <div class="footer_bottom">
+                    &copy; <p id="yearDate"></p> Designed By <span id="autor">Fredy Muniz</span>
+               </div>
+          </footer>
+     </section>
+
+     <script src="src/JS/script01.js"></script>
+
+</body>
+
+</html>
