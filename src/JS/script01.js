@@ -10,3 +10,7 @@ document.getElementById('services-toggle').addEventListener('click', function ()
 const d = new Date();
 let year = d.getFullYear();
 document.getElementById("yearDate").innerHTML = year;
+
+function g() {
+     console.log(12 + 5);
+}
